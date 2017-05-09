@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Don Le -->
+<head>
+<html>
+  <meta charset="utf-8"/>
+  <title> Test </title>
+  <link rel="stylesheet" href="stylepage.css">
+  <script type="text/javascript" src="functions.js"></script>
+</head>
+<body onload="initializeCorrect();">
+<h1> Rock, Paper, Scissors </h1>
+<div>
+  <input type="text" id="theirAnswer" class="form-control input-md"
+  placeholder="Choose Rock, Paper or Scissors" oninput="checkAnswer();"/>
+</div>
+<div>
+  <button type="button" id="compareChoice" class="control-label hidden-message"
+  onclick="generateRandom();" disabled> Click to play </button>
+</div>
+<div>
+  <span id="choice" class="control-label hidden-message">
+  </span>
+</div>
+<div>
+  <img  src="https://viralviralvideos.com/wp-content/uploads/2011/09/Rock-paper-scissors.jpg" id="picture" style="width:304px;height:228px;">
+</div>
+<div>
+  <h2> Go to other pages </h2>
+    <ul>
+      <li><a href="score.html">Check your score</a></li>
+    </ul>
+</div>
+</body>
+
+</html>
